@@ -1,0 +1,94 @@
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.terminal {
+    width: 800px;
+    background-color: #000;
+    border: 2px solid #fff;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.1);
+    margin-bottom: 20px;
+}
+
+.screen {
+    padding: 20px;
+    max-height: 200px;
+    overflow-y: hidden;
+    background-color: #000;
+    color: #fff;
+}
+
+.prompt {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: #000;
+    border-top: 2px solid #fff;
+}
+
+.prompt .user {
+    color: #0f0;
+    margin-right: 5px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 10px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+}
+
+nav ul li a:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+.prompt input[type="text"] {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: #fff;
+    font-family: 'Courier New', Courier, monospace;
+    width: 70%;
+}
+
+footer {
+    text-align: center;
+    font-size: 0.8em;
+    margin-top: 20px;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    background-color: #000;
+    padding: 10px 0;
+}
+
+.bold-italic-white {
+    font-weight: bold;
+    font-style: italic;
+    color: white;
+    text-decoration: none;
+}
+
