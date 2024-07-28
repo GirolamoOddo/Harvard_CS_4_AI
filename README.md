@@ -5,7 +5,7 @@
 # Computer Science for AI - Problem Solutions 
 
 Welcome to my repository containing solutions for the Harvard 'Professional Certificate: Computer Science for Artificial Intelligence' program.   
-in particular the program is split in two main courses, CS50: Introduction to Computer Science and CS50AI: Introduction to Artificial Intelligence with Python.
+In particular the program is split in two main courses, CS50: Introduction to Computer Science and CS50AI: Introduction to Artificial Intelligence with Python.  
 This repository serves as a comprehensive collection of my solutions to the problem sets and projects provided in these courses.
 
 ## Table of Contents
