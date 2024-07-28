@@ -1,0 +1,37 @@
+// Problems on Using only the AVG:
+
+The problem I identify with using only the mean is that it may be affected by an inconsistent distribution of data, falsifying the result obtained.
+The development I propose is to use the mean scaled by the standard deviation so as to also have sensitivity to how the data are distributed around
+the mean, thus modulating the color intensity.
+As a further development it would be interesting to be able to extract an information about the context in which the song is listened to so as to
+better classify what is listened to during training/relaxation moments... and then extract other indices to compose the aura.
+
+
+
+_____Here the Code________________________________________________________________
+
+// Extract The Average and Standard Dev of the user preferences for each indicator
+WITH stats AS (
+    SELECT
+        AVG(energy) AS avg_energy,
+        AVG(valence) AS avg_valence,
+        AVG(danceability) AS avg_danceability,
+        STDDEV(energy) AS std_energy,
+        STDDEV(valence) AS std_valence,
+        STDDEV(danceability) AS std_danceability
+    FROM songs
+)
+
+// then compute a scaled index
+SELECT
+    avg_energy,
+    avg_valence,
+    avg_danceability,
+    std_energy,
+    std_valence,
+    std_danceability,
+    (avg_energy / std_energy) AS scaled_energy,
+    (avg_valence / std_valence) AS scaled_valence,
+    (avg_danceability / std_danceability) AS scaled_danceability
+FROM stats;
+

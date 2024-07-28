@@ -1,0 +1,29 @@
+
+sort1 uses: BUBBLE SORT
+
+How do you know?
+Conducted 3 profiling run for sorted and reversed, obtaining:
+- sorted:   0.094s 0.083s 0.064s very good in lucky case!
+- reversed: 0.231s 0.263s 0.267s x10 slower in worst case
+Performance are differents in the two scenarios
+_______________________________________________________________
+
+sort2 uses: MERGE SORT
+
+How do you know?
+Conducted 3 profiling run for sorted and reversed, obtaining:
+- sorted:   0.054s 0.059s 0.088s
+- reversed: 0.066s 0.148s 0.090s
+Same good performance in best/worst case
+_______________________________________________________________
+
+sort3 uses: SELECTION SORT
+
+How do you know?
+Conducted 3 profiling run for sorted and reversed, obtaining:
+- sorted:   0.120s 0.119s 0.176s
+- reversed: 0.139s 0.231s 0.171s
+Same performance in the two cases, and comparable with sort1
+worst case
+_______________________________________________________________
+
