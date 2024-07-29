@@ -1,8 +1,6 @@
 # ZERO-DAY SIEGE
 
 #### Girolamo Oddo
-#### Video Demo:  <[Link to Project Presentation](https://youtu.be/X-7KsUmrYIo)>
-
 
 ---
 ### __0. Overview:__
