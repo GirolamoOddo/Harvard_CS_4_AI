@@ -1,6 +1,7 @@
-# ZERO-DAY SIEGE
+## ”α-β MiniMax Adversarial Intelligence for Simulating Cyber-Attacks”
 
-#### Girolamo Oddo
+#### ZERO-DAY SIEGE a Python Competitive Game
+##### Girolamo Oddo
 
 ---
 ### __0. Overview:__
